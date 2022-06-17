@@ -1,0 +1,130 @@
+*{
+    
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background: url(bckgrd.png);
+    background-color: pink;
+    font-family: 'poppins', sans-serif;
+ 
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    height: 610px;
+    padding-top: 50px;
+}
+
+.trial{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    background-color: darkblue;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    margin-right: 80px;
+    padding-left: 50px;
+   }
+
+.trial p{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+form {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    align-content: center;
+    width: 400px;
+    padding-top: 10px;
+    margin-top: 20px;
+   
+}
+
+.first{
+    color: white;
+    font-size: large;
+    padding: 70px;
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 350px;
+    align-content: center;
+     border: none;
+     padding-left: 10px;
+
+}
+
+.sub{
+    background-color: green;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    width: 350px;}
+
+.second{
+margin-top: 50px;
+margin-bottom: 200px;
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+h1{
+    margin-left: 50px;
+    margin-bottom: auto;
+    font-size: 40px;
+}
+
+.first p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: small;
+   
+}
+.enter{
+    margin: 20px;
+}
+form p{
+    color: grey;
+}
+.third{
+    padding-left: 20px;
+    font-size: smaller;
+}
+.small{
+    font-size: 11;
+    color: white;
+    font-weight: 100;
+}
+
+@media (maxwidth: 400px) {
+    .container {
+        flex-direction: column;
+    }
+}
